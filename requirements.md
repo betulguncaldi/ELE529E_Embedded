@@ -7,18 +7,17 @@
 | FR1 | The system shall detect obstacles in the path of the vehicle. | High     |
 | FR2 | The system shall provide real-time distance measurements.     | High     |
 | FR3 | The system shall alert the driver when an obstacle is detected within a certain range. | High     |
-| FR4 | The system shall support multiple distance sensors.           | Medium   |
-| FR5 | The system shall integrate with the vehicle's braking system for emergency stops. | High     |
+[ FR4 | The system shall activate a green LED indicator when the detected obstacle distance is greater than 60 mm. | High     |
+[ FR5 | The system shall activate a red LED indicator when the detected obstacle distance is less than or equal to 60 mm. | High     |
 
 ## 2. Non-Functional Requirements (NFR)
 
 | ID  | Description                                                     | Priority |
 |-----|---------------------------------------------------------------|----------|
-| NFR1| The system shall operate in real-time with a maximum latency of 100ms.  | High     |
-| NFR2| The system shall consume less than 100mA of current.         | Medium   |
-| NFR3| The system shall be compliant with safety standards for automotive applications. | High     |
-| NFR4| The system shall be maintainable and upgradable.              | Medium   |
-| NFR5| The system shall function in a temperature range of -20°C to +70°C. | High     |
+| NFR1| The system shall consume less than 5mA of current.         | Medium   |
+| NFR2| The system shall be compliant with safety standards for automotive applications. | High     |
+| NFR3| The system shall be maintainable and upgradable.              | Medium   |
+| NFR4| The system shall function in a temperature range of 0°C to +40°C. | High     |
 
 ## 3. General Description
 
